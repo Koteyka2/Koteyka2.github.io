@@ -1,0 +1,37 @@
+body {
+	margin:0;
+	background-color:#ffba5a;
+	font-family: 'Gabriela', serif;				
+}
+
+.main {
+	width:95%;
+	max-width:1400px;
+    margin: auto;
+}
+
+.img-container {
+	columns:3;
+	column-gap:3px;  
+}
+
+.img {
+	max-width:100%;
+	display: block;
+}
+
+.wraper + .wraper {
+	margin: 3px 0;
+	
+}
+
+.h1 {
+	text-align: center;
+	margin: 50px 0;
+	color:#665c84;
+	font-size: 60px;
+}
+
+.wraper {
+	display: block;
+}
